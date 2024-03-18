@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>PCs de Escritorio</title>
+  <style>
+   .logo-container {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-bottom: 20px;
+    }
+
+    .logo {
+      width: 80px;
+      height: auto;
+      margin-right: 10px;
+    }
+
+    .logo-text {
+      color: #6b2a9f; /* Color morado */
+      font-size: 24px;
+    }
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #000;
+      color: #fff;
+    }
+
+    .container {
+      width: 80%;
+      margin: 0 auto;
+      padding: 20px;
+    }
+
+    .logo {
+      position: absolute;
+      top: 20px;
+      left: 20px;
+      width: 80px;
+      height: auto;
+    }
+
+    h1 {
+      text-align: center;
+      font-size: 36px;
+      margin-top: 20px;
+      color: #6b2a9f; /* Color morado */
+    }
+
+    .pcs-escritorio {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 20px;
+      margin-top: 40px;
+    }
+
+    .pc-escritorio {
+      background-color: #3a3a3a;
+      border-radius: 8px;
+      padding: 20px;
+      text-align: center;
+      position: relative;
+    }
+
+    .pc-escritorio img {
+      max-width: 100%;
+      border-radius: 8px;
+      margin-bottom: 10px;
+    }
+
+    .pc-escritorio h2 {
+      font-size: 20px;
+      margin-bottom: 5px;
+    }
+
+    .pc-escritorio p {
+      font-size: 16px;
+      color: #ccc;
+      margin-bottom: 0;
+    }
+
+    .pc-escritorio span {
+      color: #fff;
+      font-weight: bold;
+    }
+
+    .add-to-cart {
+      background-color: #6b2a9f; /* Color morado */
+      color: #fff;
+      border: none;
+      padding: 8px 16px;
+      border-radius: 5px;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+    }
+
+    .add-to-cart:hover {
+      background-color: #4a1a6f; /* Color morado oscuro al pasar el mouse */
+    }
+
+    .redes-sociales {
+      text-align: center;
+      margin-top: 20px;
+    }
+
+    .redes-sociales a {
+      margin: 0 10px;
+      text-decoration: none;
+      color: #fff;
+      font-size: 24px;
+    }
+  </style>
+  <link rel="icon" href="imagenes/logoo.ico">
+</head>
+<body>
+  <div class="container">
+    <!-- Contenido -->
+    <img class="logo" src="C:\xampp\htdocs\Pagina de prueba e\imagenes\logoo.png" alt="Logo de la página">
+    <span class="logo-text">MYITEAMS</span>
+    
+    <h1>PCs de Escritorio</h1>
+    
+    <div class="pcs-escritorio">
+      <!-- PCs de Escritorio -->
+      <div class="pc-escritorio">
+        <img src="C:\xampp\htdocs\Pagina de prueba e\imagenes\Pc de esritorios\56c5ea3a-847a-41cb-b5d6-0a7492a6b68e.2554e46f9e154b7ba76bc9636ced78f3.webp" alt="PC de Escritorio 1">
+        <h2>Dell Inspiron Desktop</h2>
+        <p> Descripción: PC de escritorio con procesador Intel Core i5, 8GB de RAM, disco duro de 1TB y gráficos integrados.<span> Precio: $899</span></p>
+        <button class="add-to-cart">Añadir al carrito</button>
+      </div>
+
+      <div class="pc-escritorio">
+        <img src="C:\xampp\htdocs\Pagina de prueba e\imagenes\Pc de esritorios\91Fb+Pcxe-L._AC_UF894,1000_QL80_.jpg" alt="PC de Escritorio 2">
+        <h2>HP Pavilion Desktop</h2>
+        <p>PC de escritorio para gaming con pantalla de 15.6 pulgadas, procesador AMD Ryzen 7, 16GB de RAM, SSD de 512GB y tarjeta gráfica NVIDIA GeForce RTX 3060.  <span>Precio: $1299</span></p>
+        <button class="add-to-cart">Añadir al carrito</button>
+      </div>
+
+      <!-- Agrega más PCs de Escritorio con la misma estructura -->
+     
+      <div class="pc-escritorio">
+        <img src="C:\xampp\htdocs\Pagina de prueba e\imagenes\Pc de esritorios\239e0fcc-e38c-4342-bbfd-ea6a7e18f273_800x.webp" alt="PC de Escritorio 3">
+        <h2>Dell XPS 13</h2>
+        <p>PC de escritorio convertible 2 en 1 con pantalla táctil de 14 pulgadas, procesador Intel Core i7, 16GB de RAM, SSD de 512GB y lápiz óptico incluido.  <span>Precio: $1499</span></p>
+        <button class="add-to-cart">Añadir al carrito</button>
+      </div>
+
+      <div class="pc-escritorio">
+        <img src="C:\xampp\htdocs\Pagina de prueba e\imagenes\Pc de esritorios\1136387819.avif" alt="PC de Escritorio 3">
+        <h2>Acer Aspire TC Desktop</h2>
+        <p>Descripción: PC compacto para juegos con procesador Intel Core i5, 16GB de RAM, SSD de 512GB y tarjeta gráfica NVIDIA GeForce GTX 1660 Ti. <span>Precio: $1499</span></p>
+        <button class="add-to-cart">Añadir al carrito</button>
+      </div>
+
+      <div class="pc-escritorio">
+        <img src="C:\xampp\htdocs\Pagina de prueba e\imagenes\Pc de esritorios\amazon1.jpg" alt="PC de Escritorio 3">
+        <h2>CyberPowerPC Gamer Xtreme</h2>
+        <p>PC de escritorio convertible 2 en 1 con pantalla táctil de 14 pulgadas, procesador Intel Core i7, 16GB de RAM, SSD de 512GB y lápiz óptico incluido.  <span>Precio: $1499</span></p>
+        <button class="add-to-cart">Añadir al carrito</button>
+      </div>
+
+      <div class="pc-escritorio">
+        <img src="C:\xampp\htdocs\Pagina de prueba e\imagenes\Pc de esritorios\BASE-VIRTUAL-PC-ESCRITORIO-CAJA-RD-175-MONITOR-22-600x556.jpg" alt="PC de Escritorio 3">
+        <h2>MSI Trident 3</h2>
+        <p>PC de escritorio convertible 2 en 1 con pantalla táctil de 14 pulgadas, procesador Intel Core i7, 16GB de RAM, SSD de 512GB y lápiz óptico incluido.  <span>Precio: $1499</span></p>
+        <button class="add-to-cart">Añadir al carrito</button>
+      </div>
+
+      <div class="pc-escritorio">
+        <img src="C:\xampp\htdocs\Pagina de prueba e\imagenes\Pc de esritorios\Computador-de-escritiorio.webp" alt="PC de Escritorio 3">
+        <h2>Dell XPS 13</h2>
+        <p>PC de escritorio convertible 2 en 1 con pantalla táctil de 14 pulgadas, procesador Intel Core i7, 16GB de RAM, SSD de 512GB y lápiz óptico incluido.  <span>Precio: $1499</span></p>
+        <button class="add-to-cart">Añadir al carrito</button>
+      </div>
+
+      <div class="pc-escritorio">
+        <img src="C:\xampp\htdocs\Pagina de prueba e\imagenes\Pc de esritorios\pc-gamer-draco-rgb-core-i7-7700f-7th.jpg" alt="PC de Escritorio 3">
+        <h2>Lenovo IdeaCentre 5</h2>
+        <p>Retroiluminación personalizable <span>Precio: $1499</span></p>
+        <button class="add-to-cart">Añadir al carrito</button>
+      </div>
+
+    </div>
+
+    <!-- Redes Sociales -->
+    <div class="redes-sociales">
+      <a href="enlace_facebook"><i class="fab fa-facebook"></i></a>
+      <a href="enlace_twitter"><i class="fab fa-twitter"></i></a>
+      <a href="enlace_instagram"><i class="fab fa-instagram"></i></a>
+      <!-- Agrega más enlaces a otras redes sociales si es necesario -->
+    </div>
+  </div>
+</body>
+</html>

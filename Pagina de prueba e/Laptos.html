@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Laptops</title>
+  <style>
+
+.logo-container {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-bottom: 20px;
+    }
+
+    .logo {
+      width: 80px;
+      height: auto;
+      margin-right: 10px;
+    }
+
+    .logo-text {
+      color: #6b2a9f; /* Color morado */
+      font-size: 24px;
+    }
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #000;
+      color: #fff;
+    }
+
+    .container {
+      width: 80%;
+      margin: 0 auto;
+      padding: 20px;
+    }
+
+    .logo {
+      position: absolute;
+      top: 20px;
+      left: 20px;
+      width: 80px;
+      height: auto;
+    }
+
+    h1 {
+      text-align: center;
+      font-size: 36px;
+      margin-top: 20px;
+      color: #6b2a9f; /* Color morado */
+    }
+
+    .laptops {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 20px;
+      margin-top: 40px;
+    }
+
+    .laptop {
+      background-color: #3a3a3a;
+      border-radius: 8px;
+      padding: 20px;
+      text-align: center;
+      position: relative;
+    }
+
+    .laptop img {
+      max-width: 100%;
+      border-radius: 8px;
+      margin-bottom: 10px;
+    }
+
+    .laptop h2 {
+      font-size: 20px;
+      margin-bottom: 5px;
+    }
+
+    .laptop p {
+      font-size: 16px;
+      color: #ccc;
+      margin-bottom: 0;
+    }
+
+    .laptop span {
+      color: #fff;
+      font-weight: bold;
+    }
+
+    .add-to-cart {
+      background-color: #6b2a9f; /* Color morado */
+      color: #fff;
+      border: none;
+      padding: 8px 16px;
+      border-radius: 5px;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+    }
+
+    .add-to-cart:hover {
+      background-color: #4a1a6f; /* Color morado oscuro al pasar el mouse */
+    }
+
+    .redes-sociales {
+      text-align: center;
+      margin-top: 20px;
+    }
+
+    .redes-sociales a {
+      margin: 0 10px;
+      text-decoration: none;
+      color: #fff;
+      font-size: 24px;
+    }
+  </style>
+  <link rel="icon" href="imagenes/logoo.ico">
+</head>
+<body>
+  <div class="container">
+    <!-- Contenido -->
+    <img class="logo" src="C:\xampp\htdocs\Pagina de prueba e\imagenes\logoo.png" alt="Logo de la página">
+    <span class="logo-text">MYITEAMS</span>
+    
+    <h1>Laptops</h1>
+    
+    <div class="laptops">
+      <!-- Laptops -->
+      <div class="laptop">
+        <img src="C:\xampp\htdocs\Pagina de prueba e\imagenes\Laptos\71dQISlvYpL._AC_UF894,1000_QL80_.jpg" alt="Laptop 1">
+        <h2>Acer Swift 5</h2>
+        <p>Laptop ultradelgada con pantalla de 13 pulgadas, procesador Intel Core i5, 8GB de RAM y SSD de 256GB. <span> Precio: $899</span></p>
+        <button class="add-to-cart">Añadir al carrito</button>
+      </div>
+
+      <div class="laptop">
+        <img src="C:\xampp\htdocs\Pagina de prueba e\imagenes\Laptos\612o1n8SH5L._AC_UF1000,1000_QL80_.jpg" alt="Laptop 2">
+        <h2>MSI Stealth 15M</h2>
+        <p>Laptop para gaming con pantalla de 15.6 pulgadas, procesador AMD Ryzen 7, 16GB de RAM, SSD de 512GB y tarjeta gráfica NVIDIA GeForce RTX 3060.  <span>Precio: $1299</span></p>
+        <button class="add-to-cart">Añadir al carrito</button>
+      </div>
+
+      <!-- Agrega más laptops con la misma estructura -->
+     
+      <div class="laptop">
+        <img src="C:\xampp\htdocs\Pagina de prueba e\imagenes\Laptos\238514-1200-auto.webp" alt="Laptop 3">
+        <h2>Dell XPS 13</h2>
+        <p>Laptop convertible 2 en 1 con pantalla táctil de 14 pulgadas, procesador Intel Core i7, 16GB de RAM, SSD de 512GB y lápiz óptico incluido.  <span>Precio: $1499</span></p>
+        <button class="add-to-cart">Añadir al carrito</button>
+      </div>
+
+      <div class="laptop">
+        <img src="C:\xampp\htdocs\Pagina de prueba e\imagenes\Laptos\2023033014204758730_1.webp" alt="Laptop 4">
+        <h2>Lenovo ThinkPad X1 Carbon</h2>
+        <p>Laptop convertible 2 en 1 con pantalla táctil de 14 pulgadas, procesador Intel Core i7, 16GB de RAM, SSD de 512GB y lápiz óptico incluido. <span>Precio: $1499</span></p>
+        <button class="add-to-cart">Añadir al carrito</button>
+      </div>
+
+      <div class="laptop">
+        <img src="C:\xampp\htdocs\Pagina de prueba e\imagenes\Laptos\res_6bd1993646c1adf4b3f0fe7c3222e546.jpg" alt="Laptop 5">
+        <h2>Razer Blade 15</h2>
+        <p>Laptop para estudiantes con pantalla de 11.6 pulgadas, procesador Intel Celeron, 4GB de RAM, almacenamiento eMMC de 128GB y diseño resistente.  <span>Precio: $1499</span></p>
+        <button class="add-to-cart">Añadir al carrito</button>
+      </div>
+
+      <div class="laptop">
+        <img src="C:\xampp\htdocs\Pagina de prueba e\imagenes\Laptos\res_8aa58548a2a6f2e9b6aa4813a029e60f.webp" alt="Laptop 6">
+        <h2>Apple MacBook Pro</h2>
+        <p>Laptop premium con pantalla OLED de 15.6 pulgadas, procesador Intel Core i9, 32GB de RAM, SSD de 1TB y tarjeta gráfica NVIDIA GeForce RTX 3080. <span>Precio: $1499</span></p>
+        <button class="add-to-cart">Añadir al carrito</button>
+      </div>
+
+      <div class="laptop">
+        <img src="C:\xampp\htdocs\Pagina de prueba e\imagenes\Laptos\s1_7fppn1cn.jpg" alt="Laptop 7">
+        <h2>HP Spectre x360</h2>
+        <p>Laptop de gama media con pantalla de 14 pulgadas, procesador AMD Ryzen 5, 8GB de RAM, SSD de 256GB y gráficos integrados. <span>Precio: $1499</span></p>
+        <button class="add-to-cart">Añadir al carrito</button>
+      </div>
+
+      <div class="laptop">
+        <img src="C:\xampp\htdocs\Pagina de prueba e\imagenes\Laptos\UF06294.webp" alt="Laptop 8">
+        <h2>ASUS ROG Strix G15</h2>
+        <p>Laptop económica con pantalla HD de 15.6 pulgadas, procesador AMD Athlon, 4GB de RAM, disco duro de 500GB y webcam integrada.  <span>Precio: $1499</span></p>
+        <button class="add-to-cart">Añadir al carrito</button>
+      </div>
+
+    </div>
+
+    <!-- Redes Sociales -->
+    <div class="redes-sociales">
+      <a href="enlace_facebook"><i class="fab fa-facebook"></i></a>
+      <a href="enlace_twitter"><i class="fab fa-twitter"></i></a>
+      <a href="enlace_instagram"><i class="fab fa-instagram"></i></a>
+      <!-- Agrega más enlaces a otras redes sociales si es necesario -->
+    </div>
+  </div>
+</body>
+</html>

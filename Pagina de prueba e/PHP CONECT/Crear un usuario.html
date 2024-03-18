@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+ <meta charset="UTF-8">
+ <title>Registro de Usuario</title>
+ <link rel="stylesheet" href="styles.css">
+ <link rel="icon" href="imagenes/logoo.ico">
+</head>
+<style>
+  body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #000;
+  color: #fff;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.register-box {
+  background-color: #6b2a9f;
+  padding: 40px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  text-align: center;
+}
+
+.logo {
+  width: 100px;
+  height: auto;
+  margin-bottom: 20px;
+}
+
+h2 {
+  margin-bottom: 20px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+  font-size: 16px;
+}
+
+input[type="text"],
+input[type="password"] {
+  width: 250px;
+  padding: 8px;
+  margin-bottom: 15px;
+  border-radius: 5px;
+  border: none;
+}
+
+input[type="submit"] {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  background-color: #4a1a6f;
+  color: #fff;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+input[type="submit"]:hover {
+  background-color: #2e0e3f;
+}
+
+</style>
+<body>
+ <div class="container">
+    <div class="register-box">
+      <img class="logo" src="C:\xampp\htdocs\Pagina de prueba e\imagenes\logoo.png" alt="Logo de la página">
+      <h2>Registro de Usuario</h2>
+      <form action="registro.php" method="post">
+        <label for="nombre_usuario">Nombre de usuario:</label>
+        <input type="text" id="nombre_usuario" name="nombre_usuario" required>
+        <br>
+        <label for="contraseña">Contraseña:</label>
+        <input type="password" id="contraseña" name="contraseña" required>
+        <br>
+        <label for="confirmar_contraseña">Confirmar Contraseña:</label>
+        <input type="password" id="confirmar_contraseña" name="confirmar_contraseña" required>
+        <br>
+        <input type="submit" value="Registrarse">
+      </form>
+    </div>
+ </div>
+</body>
+</html>

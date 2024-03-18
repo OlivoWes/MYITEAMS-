@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Componentes</title>
+  <style>
+    /* Estilos CSS */
+    .logo-container {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-bottom: 20px;
+    }
+
+    .logo {
+      width: 80px;
+      height: auto;
+      margin-right: 10px;
+    }
+
+    .logo-text {
+      color: #6b2a9f; /* Color morado */
+      font-size: 24px;
+    }
+
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #000;
+      color: #fff;
+    }
+
+    .container {
+      width: 80%;
+      margin: 0 auto;
+      padding: 20px;
+    }
+
+    .logo {
+      position: absolute;
+      top: 20px;
+      left: 20px;
+      width: 80px;
+      height: auto;
+    }
+
+    h1 {
+      text-align: center;
+      font-size: 36px;
+      margin-top: 20px;
+      color: #6b2a9f; /* Color morado */
+    }
+
+    .componentes {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 20px;
+      margin-top: 40px;
+    }
+
+    .componente {
+      background-color: #3a3a3a;
+      border-radius: 8px;
+      padding: 20px;
+      text-align: center;
+      position: relative;
+    }
+
+    .componente img {
+      max-width: 100%;
+      border-radius: 8px;
+      margin-bottom: 10px;
+    }
+
+    .componente h2 {
+      font-size: 20px;
+      margin-bottom: 5px;
+    }
+
+    .componente p {
+      font-size: 16px;
+      color: #ccc;
+      margin-bottom: 0;
+    }
+
+    .componente span {
+      color: #fff;
+      font-weight: bold;
+    }
+
+    .add-to-cart {
+      background-color: #6b2a9f; /* Color morado */
+      color: #fff;
+      border: none;
+      padding: 8px 16px;
+      border-radius: 5px;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+    }
+
+    .add-to-cart:hover {
+      background-color: #4a1a6f; /* Color morado oscuro al pasar el mouse */
+    }
+
+    .redes-sociales {
+      text-align: center;
+      margin-top: 20px;
+    }
+
+    .redes-sociales a {
+      margin: 0 10px;
+      text-decoration: none;
+      color: #fff;
+      font-size: 24px;
+    }
+  </style>
+  <link rel="icon" href="imagenes/logoo.ico">
+</head>
+<body>
+  <div class="container">
+    <!-- Contenido -->
+    <img class="logo" src="C:\xampp\htdocs\Pagina de prueba e\imagenes\logoo.png" alt="Logo de la página">
+    <span class="logo-text">MYITEAMS</span>
+    
+    <h1>Componentes</h1>
+    
+    <div class="componentes">
+      <!-- Componentes -->
+      <div class="componente">
+        <img src="C:\xampp\htdocs\Pagina de prueba e\imagenes\Componentes\006_gallery_MZ-V7E1T0BW_10-01-18.webp" alt="Componente 1">
+        <h2>Samsung 970 EVO Plus SSD</h2>
+        <p>Una unidad de estado sólido (SSD) de alta velocidad que ofrece un rendimiento excepcional en lectura y escritura, ideal para mejorar la velocidad y la capacidad de respuesta de tu computadora. <span> Precio: $899</span></p>
+        <button class="add-to-cart">Añadir al carrito</button>
+      </div>
+
+      <div class="componente">
+        <img src="C:\xampp\htdocs\Pagina de prueba e\imagenes\Componentes\71nq+8Cqd1L.jpg" alt="Componente 2">
+        <h2>MNVIDIA RTX 3090 TI</h2>
+        <p>La Nvidia RTX 3090 es reconocida por su rendimiento gráfico excepcional, ofreciendo una potencia y capacidad de procesamiento de alta gama ideal para gaming en resoluciones ultra altas y renderizado de contenido creativo exigente.  <span>Precio: $180</span></p>
+        <button class="add-to-cart">Añadir al carrito</button>
+      </div>
+
+      <!-- Agrega más componentes con la misma estructura -->
+     
+      <div class="componente">
+        <img src="C:\xampp\htdocs\Pagina de prueba e\imagenes\Componentes\81XIr69BtVL.jpg" alt="Componente 3">
+        <h2>Nvidia GeForce RTX 4090</h2>
+        <p>La Nvidia GeForce RTX 4090 cuenta con 24 GB de memoria GDDR6x y un bus de 384 bits, es ahora mismo la mejor tarjeta gráfica del mercado, con un rendimiento tan brutal que deja al resto de competidores en un segundo plano.  <span>Precio: $1499</span></p>
+        <button class="add-to-cart">Añadir al carrito</button>
+      </div>
+
+      <div class="componente">
+        <img src="C:\xampp\htdocs\Pagina de prueba e\imagenes\Componentes\7459.jpg" alt="Componente 3">
+        <h2>Carcasa MOTEX </h2>
+        <p>Carcasa de buena calidad y una ventilacion exelente.  <span>Precio: $1499</span></p>
+        <button class="add-to-cart">Añadir al carrito</button>
+      </div>
+
+      <div class="componente">
+        <img src="C:\xampp\htdocs\Pagina de prueba e\imagenes\Componentes\20200819054034.png" alt="Componente 3">
+        <h2>Placa Madre ASUS</h2>
+        <p>ASUS ROG Maximus Z790 Hero (WiFi 6E) LGA 1700 (Intel® 13ª y 12ª generación) ATX placa base para juegos (PCIe 5.0, DDR5, 20+1power Stages, LAN de 2.5 GB, Bluetooth V5.2, 2X Thunderbolt 4 puertos, 5xM.2, Thunderbolt™ 4/USB4)
+            4.3 de 5 estrellas 326  <span>Precio: $1499</span></p>
+        <button class="add-to-cart">Añadir al carrito</button>
+      </div>
+
+      <div class="componente">
+        <img src="C:\xampp\htdocs\Pagina de prueba e\imagenes\Componentes\D_NQ_NP_982819-MLA48049378932_102021-O.webp" alt="Componente 3">
+        <h2>MEMORIA DDR D44</h2>
+        <p>Lexar THOR 32GB (2x16GB) DDR4 RAM 3200MT/s CL16 Memoria de escritorio con disipador de calor, Intel XMP 2.0 (negro) LD4U16G32C16LG-RUD  <span>Precio: $1499</span></p>
+        <button class="add-to-cart">Añadir al carrito</button>
+      </div>
+
+      <div class="componente">
+        <img src="C:\xampp\htdocs\Pagina de prueba e\imagenes\Componentes\AMD-Ryzen-9.png" alt="Componente 3">
+        <h2>Dell XPS 13</h2>
+        <p>Componente convertible 2 en 1 con pantalla táctil de 14 pulgadas, procesador Intel Core i7, 16GB de RAM, SSD de 512GB y lápiz óptico incluido.  <span>Precio: $1499</span></p>
+        <button class="add-to-cart">Añadir al carrito</button>
+      </div>
+
+      <div class="componente">
+        <img src="C:\xampp\htdocs\Pagina de prueba e\imagenes\Componentes\Intel-Core-i5-12400-1.jpg" alt="Componente 3">
+        <h2>Dell XPS 13</h2>
+        <p>Componente convertible 2 en 1 con pantalla táctil de 14 pulgadas, procesador Intel Core i7, 16GB de RAM, SSD de 512GB y lápiz óptico incluido.  <span>Precio: $1499</span></p>
+        <button class="add-to-cart">Añadir al carrito</button>
+      </div>
+
+    </div>
+
+    <!-- Redes Sociales -->
+    <div class="redes-sociales">
+      <a href="enlace_facebook"><i class="fab fa-facebook"></i></a>
+      <a href="enlace_twitter"><i class="fab fa-twitter"></i></a>
+      <a href="enlace_instagram"><i class="fab fa-instagram"></i></a>
+      <!-- Agrega más enlaces a otras redes sociales si es necesario -->
+    </div>
+  </div>
+</body>
+</html>
